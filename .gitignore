@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Базы данных
+*.db
+
+# Логи
+*.log
+
+# Системные файлы
+.DS_Store
+Thumbs.db

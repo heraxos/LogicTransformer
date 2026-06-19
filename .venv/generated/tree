@@ -1,0 +1,16 @@
+digraph {
+	rankdir=TB
+	3132592089392 [label="forall x" fillcolor="#2196F3" fontcolor=white style=filled]
+	3132592089296 [label="->" fillcolor="#4CAF50" fontcolor=white style=filled]
+	3132592089392 -> 3132592089296
+	3132592087952 [label="P(x)" fillcolor="#FFA500" fontcolor=white style=filled]
+	3132592089296 -> 3132592087952
+	3132592088576 [label="->" fillcolor="#4CAF50" fontcolor=white style=filled]
+	3132592089296 -> 3132592088576
+	3132592091600 [label="Q(x)" fillcolor="#FFA500" fontcolor=white style=filled]
+	3132592088576 -> 3132592091600
+	3132592089440 [label="exists y" fillcolor="#2196F3" fontcolor=white style=filled]
+	3132592088576 -> 3132592089440
+	3132592089776 [label="R(x,y)" fillcolor="#FFA500" fontcolor=white style=filled]
+	3132592089440 -> 3132592089776
+}

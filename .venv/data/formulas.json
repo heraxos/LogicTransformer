@@ -1,0 +1,88 @@
+{
+  "formulas": [
+    {
+      "id": "1",
+      "name": "вложенные кванторы",
+      "formula": "∀x (P(x) → (Q(x) → ∃y R(x,y)))",
+      "role": "активатор",
+      "truth": "истина",
+      "concepts": [
+        "истинность"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "def_human",
+      "formula": "∀x (Human(x) → Reasonable(x))",
+      "role": "определение",
+      "truth": "истина",
+      "concepts": [
+        "истинность"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "def_mortal",
+      "formula": "∀x (Human(x) → Mortal(x))",
+      "role": "определение",
+      "truth": "истина",
+      "concepts": [
+        "истинность"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "norm_non_contradiction",
+      "formula": "¬(P ∧ ¬P)",
+      "role": "норма",
+      "truth": "истина",
+      "concepts": [
+        "истинность",
+        "элемент"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "act_quantifier_switch",
+      "formula": "∃x∀y R(x,y) → ∀y∃x R(x,y)",
+      "role": "активатор",
+      "truth": "истина",
+      "concepts": [
+        "множество"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "cond_access_allowed",
+      "formula": "∀x∀r (Admin(x) → HasAccess(x, r))",
+      "role": "условие",
+      "truth": "неопределено",
+      "concepts": [
+        "множество",
+        "элемент"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "def_complex_structure",
+      "formula": "∃x∀z∀y∃t((P(x)∧(¬Q(y)∨¬R(x,y)))∨(¬S(z)∨(T(t)∧U(z,t))))",
+      "role": "определение",
+      "truth": "неопределено",
+      "concepts": [
+        "множество",
+        "элемент"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "cond_check_truth",
+      "formula": "∀z∀y((P(c_0)∧(¬Q(y)∨¬R(c_0,y)))∨(¬S(z)∨(T(f_1(z,y))∧U(z,f_1(z,y)))))",
+      "role": "активатор",
+      "truth": "ложь",
+      "concepts": [
+        "множество",
+        "элемент"
+      ]
+    }
+  ]
+}
